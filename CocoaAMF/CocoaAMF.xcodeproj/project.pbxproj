@@ -88,29 +88,69 @@
 		26C29E801CB5EF7B00084A81 /* CocoaAMF */ = {
 			isa = PBXGroup;
 			children = (
+				26C29EFA1CB5F2F000084A81 /* Debug */,
+				26C29EF91CB5F2E100084A81 /* Categories */,
+				26C29EF81CB5F2CC00084A81 /* Datatypes */,
+				26C29EF71CB5F2BD00084A81 /* Network */,
+				26C29EF61CB5F2A000084A81 /* Core */,
+				26C29E811CB5EF7B00084A81 /* CocoaAMF.h */,
+			);
+			path = CocoaAMF;
+			sourceTree = "<group>";
+		};
+		26C29EF61CB5F2A000084A81 /* Core */ = {
+			isa = PBXGroup;
+			children = (
 				26C29E8A1CB5EFCD00084A81 /* AMF.h */,
 				26C29E8B1CB5EFCD00084A81 /* AMF.m */,
 				26C29E8C1CB5EFCD00084A81 /* AMFActionMessage.h */,
 				26C29E8D1CB5EFCD00084A81 /* AMFActionMessage.m */,
 				26C29E8E1CB5EFCD00084A81 /* AMFArchiver.h */,
 				26C29E8F1CB5EFCD00084A81 /* AMFArchiver.m */,
-				26C29E901CB5EFCD00084A81 /* AMFDebugUnarchiver.h */,
-				26C29E911CB5EFCD00084A81 /* AMFDebugUnarchiver.m */,
-				26C29E921CB5EFCD00084A81 /* AMFRemotingCall.h */,
-				26C29E931CB5EFCD00084A81 /* AMFRemotingCall.m */,
 				26C29E941CB5EFCD00084A81 /* AMFUnarchiver.h */,
 				26C29E951CB5EFCD00084A81 /* AMFUnarchiver.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		26C29EF71CB5F2BD00084A81 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				26C29E921CB5EFCD00084A81 /* AMFRemotingCall.h */,
+				26C29E931CB5EFCD00084A81 /* AMFRemotingCall.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		26C29EF81CB5F2CC00084A81 /* Datatypes */ = {
+			isa = PBXGroup;
+			children = (
 				26C29E961CB5EFCD00084A81 /* ASObject.h */,
 				26C29E971CB5EFCD00084A81 /* ASObject.m */,
 				26C29E981CB5EFCD00084A81 /* FlexDataTypes.h */,
 				26C29E991CB5EFCD00084A81 /* FlexDataTypes.m */,
+			);
+			name = Datatypes;
+			sourceTree = "<group>";
+		};
+		26C29EF91CB5F2E100084A81 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
 				26C29E9A1CB5EFCD00084A81 /* NSObject-AMFExtensions.h */,
 				26C29E9B1CB5EFCD00084A81 /* NSObject-AMFExtensions.m */,
 				26C29E9C1CB5EFCD00084A81 /* NSObject-iPhoneExtensions.h */,
 				26C29E9D1CB5EFCD00084A81 /* NSObject-iPhoneExtensions.m */,
-				26C29E811CB5EF7B00084A81 /* CocoaAMF.h */,
 			);
-			path = CocoaAMF;
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		26C29EFA1CB5F2F000084A81 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				26C29E901CB5EFCD00084A81 /* AMFDebugUnarchiver.h */,
+				26C29E911CB5EFCD00084A81 /* AMFDebugUnarchiver.m */,
+			);
+			name = Debug;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +193,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 26C29E751CB5EF7B00084A81;
 			productRefGroup = 26C29E7F1CB5EF7B00084A81 /* Products */;
